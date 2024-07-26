@@ -1,5 +1,7 @@
 {
+  "name": "hono-react-tailwind-tanstack",
   "type": "module",
+  "engine": "yarn",
   "scripts": {
     "dev": "vite",
     "build": "vite build --mode client && vite build",
@@ -7,15 +9,17 @@
     "deploy": "yarn run build && wrangler pages deploy dist"
   },
   "dependencies": {
+    "@tanstack/react-router": "^1.45.11",
     "hono": "^4.3.10",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.2"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20240208.0",
     "@hono/vite-cloudflare-pages": "^0.2.4",
     "@hono/vite-dev-server": "^0.8.0",
+    "@tanstack/router-devtools": "^1.45.11",
+    "@tanstack/router-plugin": "^1.45.8",
     "@types/react": "^18.2.60",
     "@types/react-dom": "^18.2.19",
     "autoprefixer": "^10.4.18",

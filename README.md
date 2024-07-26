@@ -1,16 +1,16 @@
-# hono-react-tailwind
+# hono-react-tailwind-tanstack
 
-A proof of concept project to use **Hono** & **TailwindCSS** to build a **React** SPA to be deployed on **Cloudflare Pages**.
+A proof of concept project to use **Hono** & **TailwindCSS** to build a **React** SPA to be deployed on **Cloudflare Pages**. It also uses [tanstack router](https://tanstack.com/router/latest/docs/framework/react/quick-start) for the client routes. Forked from [hono-react-tailwind](https://github.com/Luzefiru/hono-react-tailwind)
 
 ## Usage
 
 ```bash
-npm install
-npm run dev
+yarn install
+yarn run dev
 ```
 
 ```bash
-npm run deploy
+yarn run deploy
 ```
 
 ## References
